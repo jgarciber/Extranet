@@ -1,0 +1,15 @@
+.columna_tabla_tiempo {
+	background-image: url(../imagenes/back.gif);
+	height: 195px;
+	width: 80px;
+}
+
+#tabla_tiempo{
+	height: 240px;
+	width: 635px;
+	background-image: url(../imagenes/back2.gif);
+}
+
+caption{
+	caption-side: top;
+}

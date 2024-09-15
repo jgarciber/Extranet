@@ -1,0 +1,19 @@
+#imagen_portada {
+  max-width: 20%;
+  height: auto;
+  /* min-height: 20%; */
+}
+
+.mensaje_error {
+  color: red;
+}
+
+.mensaje_confirmacion {
+  color: green;
+  font-weight: bold;
+}
+
+label,
+form input{    
+    width: 250px;
+}

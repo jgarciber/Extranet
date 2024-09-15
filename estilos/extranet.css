@@ -1,0 +1,191 @@
+.error_formulario,
+.mensaje_error{
+   color:red;
+}
+
+.mensaje_confirmacion{
+   color:green;
+   font-weight: bold;
+}
+
+.filaInactivo td {
+   background-color: #ff4c4c57;
+}
+
+.filaProfesor td {
+   background-color: #99d1ffbd;
+}
+
+#cabecera_extranet {
+   background-image: url("../imagenes/cielo-edit2.jpg");
+   /* background-color: #72befd; */
+}
+
+#extranet_profesor{
+   margin-top:30px;
+}
+
+.incidenciaEstado_0{
+   background-color: #fdbc729d !important;
+}
+.incidenciaEstado_1{
+   background-color: #fdfb729d  !important;
+}
+.incidenciaEstado_2{
+   /* background-color: #aafd72cc !important; */
+   background-color: rgb(210, 238, 192) !important;
+}
+.incidenciaEstado_0:hover{
+   background-color: #fdbc72 !important;
+}
+.incidenciaEstado_1:hover{
+   background-color: #fdfb72  !important;
+}
+.incidenciaEstado_2:hover{
+   /* background-color: #aafd72 !important; */
+   background-color: rgb(160, 238, 132) !important;
+}
+
+/* Bootstrap por defecto coloca los títulos de la tabla al final, lo modifico para que aparezca al principio. */
+caption{
+   caption-side: top;
+}
+
+label, form input[type="submit"], form button{
+   width: 200px;
+}
+
+#nuevoEstadoIncidencia{
+   width:252.5px;
+}
+
+/* #tb-actualizar-notas{
+   display: none;
+} */
+
+textarea {
+   padding: 6px;
+}
+
+.mw-100 {
+   min-width:100%;
+}
+
+/* clase para la funcion mostrarMensajeEnCursor */
+#mensajesAJAXCursor {
+   /* Floating above */
+   /* position: fixed; */
+   /* Sticking effect */
+   /* transition: transform 0.23s; */
+   /* Allow clicking trough the div */
+   /* pointer-events: none; */
+
+   position: absolute;
+   /* Mover un poco la posición de la capa para que no salga justo en la punta del puntero. De esta manera aparece algo más centrada */
+   /* transform: translate(-50%, -50%); */
+   opacity: 1;
+}
+
+/* clase para la funcion mostrarMensajeEsquina */
+#mensajesAJAXEsquina {
+   position: fixed;
+   bottom: 60px;
+   right: 30px;
+   opacity: 1;
+}
+
+/* Clases para sobreescribir el estilo de los botones de bootstrap */
+.btn{
+   margin: 1px 2px;
+}
+
+.bt-custom-azul{
+   border: solid 2px #007bff !important;
+   background-color: white !important;
+   color: #007bff !important;
+   transition: 0.5s;
+}
+.bt-custom-azul:hover{
+   background-color: #007bff !important;
+   color: white !important;
+}
+
+.bt-custom-verde{
+   border: solid 2px #28a745 !important;
+   background-color: white !important;
+   color: #28a745 !important;
+   transition: 0.5s;
+}
+.bt-custom-verde:hover{
+   background-color: #28a745 !important;
+   color: white !important;
+}
+
+.bt-custom-rojo{
+   border: solid 2px #dc3545 !important;
+   background-color: white !important;
+   color: #dc3545 !important;
+   transition: 0.5s;
+}
+.bt-custom-rojo:hover{
+   background-color: #dc3545 !important;
+   color: white !important;
+}
+
+.calificacion-autocompletar{
+   background-color: #72befdd2;
+}
+.calificacion-actualizada{
+   background-color: lightgreen;
+}
+
+
+/* Estilos para la pestaña de javascript */
+
+/* Estilo de la pestaña */
+.tab {
+   overflow: hidden;
+   border: 1px solid #ddd;
+   background-color: #f1f1f1;
+}
+/* Estilo de los botones que son usados para abrir el contenido de la pestaña */
+.tab button {
+   font-weight: bold;
+   background-color: inherit;
+   float: left;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 14px 16px;
+   transition: 0.3s;
+}
+/* Cambia el color de fondo de los botones on hover */
+.tab button:hover {
+   background-color: #ddd;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+   background-color: #ccc;
+}
+/* Estiliza el contenido de la pestaña */
+.tabcontent {
+   display: none;
+   /* padding: 6px 12px; */
+   /* border: 1px solid #ccc; */
+   /* border-top: none; */
+}
+.tabcontent .table-bordered{
+   border: none;
+   /* padding: 6px 12px; */
+   /* border: 1px solid #ccc; */
+   /* border-top: none; */
+}
+/* Desvanecer el contenido de la pestaña */
+.tabcontent {
+   animation: fadeEffect 1s;  
+}
+/* Cambiar de 0 a total opacidad */
+@keyframes fadeEffect {
+   from {opacity: 0;}
+   to {opacity: 1;}
+}
